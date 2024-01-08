@@ -45,7 +45,8 @@ public class ArrayOps {
         int n2 = array2.length;
         boolean itSame = true;
         for(int i = 0; i < n1; i++) {
-            for(int j = 0; j < n2; j++) {
+            int j;
+            for(j = 0; j < n2; j++) {
                 if(array1[i] == array2[j]) {
                     break;
                 }
